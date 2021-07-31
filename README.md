@@ -24,7 +24,7 @@ It should be effective: The algorithm should solve the problem it was designed t
   The merge() function is used for merging two halves. The merge(arr, l, m, r) is a key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one. See the following C implementation for details.
 
 MergeSort(arr[], l,  r)
-If r > l
+If r > l 
 1. Find the middle point to divide the array into two halves:  
              middle m = l+ (r-l)/2
 2. Call mergeSort for first half:   
