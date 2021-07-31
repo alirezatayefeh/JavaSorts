@@ -17,6 +17,7 @@ It should be effective: The algorithm should solve the problem it was designed t
 
 # Insertion Sort
   
+  
 # Merge Sort NonRecursive
   Like QuickSort, Merge Sort is a Divide and Conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
   
@@ -32,6 +33,8 @@ If r > l
              Call mergeSort(arr, m+1, r)
      4. Merge the two halves sorted in step 2 and 3:
              Call merge(arr, l, m, r)
+ 
+ 
  
 # MinMaxSearch
 
