@@ -8,5 +8,12 @@ It should have well defined instructions: Each step of the algorithm has to be p
 It should be effective: The algorithm should solve the problem it was designed to solve. And it should be possible to demonstrate that the algorithm converges with just a paper and pencil.
 
 
-# Insertion Sort
 
+# Cycle Sort
+
+# Heap Sort
+
+# HeapSortMinHeap
+
+# Insertion Sort
+  
