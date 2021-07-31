@@ -17,3 +17,12 @@ It should be effective: The algorithm should solve the problem it was designed t
 
 # Insertion Sort
   
+# Merge Sort NonRecursive
+
+# MinMaxSearch
+
+# Quick Sort
+
+# Selection Sort
+
+# Shell Sort
