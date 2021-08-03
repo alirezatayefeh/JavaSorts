@@ -19,6 +19,20 @@ Cycle sort is an in-place sorting Algorithm, unstable sorting algorithm, a compa
 
 # Heap Sort
 
+Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to selection sort where we first find the minimum element and place the minimum element at the beginning. We repeat the same process for the remaining elements.
+
+Heap Sort Algorithm for sorting in increasing order: 
+
+1. Build a max heap from the input data. 
+
+2. At this point, the largest item is stored at the root of the heap. Replace it with the last item of the heap followed by reducing the size of heap by 1. Finally, heapify the root of the tree. 
+
+3. Repeat step 2 while the size of the heap is greater than 1.
+
+How to build the heap? 
+
+Heapify procedure can be applied to a node only if its children nodes are heapified. So the heapification must be performed in the bottom-up order.
+
 # HeapSortMinHeap
 
 # Insertion Sort
