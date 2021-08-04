@@ -1,7 +1,7 @@
 
 /**
  * @author Alireza_Tayefeh
- * Cycle sort algorithm in java
+ * Bubble sort algorithm in java
  */
 public class BubbleSort {
     void bubbleSort(int arr[]) {
