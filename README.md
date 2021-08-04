@@ -1,4 +1,5 @@
 # Algorithm
+
 Informally, an algorithm is any well-defined computational procedure that takes some value, or set of values, as input and produces some value, or set of values, as output. An algorithm is thus a sequence of computational steps that transform the input into the output.
 
 An algorithm should have three important characteristics to be considered valid:
@@ -6,6 +7,7 @@ An algorithm should have three important characteristics to be considered valid:
 It should be finite: If your algorithm never ends trying to solve the problem it was designed to solve then it is useless
 It should have well defined instructions: Each step of the algorithm has to be precisely defined; the instructions should be unambiguously specified for each case.
 It should be effective: The algorithm should solve the problem it was designed to solve. And it should be possible to demonstrate that the algorithm converges with just a paper and pencil.
+
 
 
 
@@ -17,9 +19,27 @@ Cycle sort is an in-place sorting Algorithm, unstable sorting algorithm, a compa
 
 2.It is based on the idea that array to be sorted can be divided into cycles. Cycles can be visualized as a graph. We have n nodes and an edge directed from node i to node j if the element at i-th index must be present at j-th index in the sorted array. 
 
+
+
+
 # Heap Sort
 
-# HeapSortMinHeap
+Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to selection sort where we first find the minimum element and place the minimum element at the beginning. We repeat the same process for the remaining elements.
+
+Heap Sort Algorithm for sorting in increasing order: 
+
+1. Build a max heap from the input data. 
+
+2. At this point, the largest item is stored at the root of the heap. Replace it with the last item of the heap followed by reducing the size of heap by 1. Finally, heapify the root of the tree. 
+
+3. Repeat step 2 while the size of the heap is greater than 1.
+
+How to build the heap? 
+
+Heapify procedure can be applied to a node only if its children nodes are heapified. So the heapification must be performed in the bottom-up order.
+
+
+
 
 # Insertion Sort
 
@@ -32,7 +52,9 @@ To sort an array of size n in ascending order:
 2. Compare the current element (key) to its predecessor.
 3. If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element.
 
-  
+
+
+
 # Merge Sort NonRecursive
   Like QuickSort, Merge Sort is a Divide and Conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
   
@@ -48,10 +70,9 @@ If r > l
              Call mergeSort(arr, m+1, r)
 4. Merge the two halves sorted in step 2 and 3:
              Call merge(arr, l, m, r)
- 
- 
- 
-# MinMaxSearch
+
+
+
 
 # Quick Sort
 
@@ -67,6 +88,9 @@ Like Merge Sort, QuickSort is a Divide and Conquer algorithm. It picks an elemen
 
 The key process in quickSort is partition(). Target of partitions is, given an array and an element x of array as pivot, put x at its correct position in sorted array and put all smaller elements (smaller than x) before x, and put all greater elements (greater than x) after x. All this should be done in linear time.
 
+
+
+
 # Selection Sort
 
 The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.
@@ -76,6 +100,9 @@ The selection sort algorithm sorts an array by repeatedly finding the minimum el
 3. Remaining subarray which is unsorted.
 
 In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray. 
+
+
+
 
 # Shell Sort
 
