@@ -3,10 +3,11 @@
  * Generic Insertion Sort
  */
 
-public class InsersionSort <T extends Comparable<? super T>> {
+public class InsersionSort<T extends Comparable<? super T>> {
 
     /**
      * Sort
+     *
      * @return T[] array of sorted element
      */
     public T[] Sort(T[] values) {

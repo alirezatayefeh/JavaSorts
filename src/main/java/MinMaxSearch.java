@@ -1,5 +1,11 @@
+
+/**
+ * @author Alireza_Tayefeh
+ * MinMax Search algorithm in java
+ */
+
 public class MinMaxSearch {
-    public MinMaxSearch(){
+    public MinMaxSearch() {
 
     }
 
@@ -44,7 +50,7 @@ public class MinMaxSearch {
             }
         }
 
-        int[] MinMaxC = { min, max, count };
+        int[] MinMaxC = {min, max, count};
         return MinMaxC;
 
     }

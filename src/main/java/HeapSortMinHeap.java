@@ -3,7 +3,7 @@
  * HeapSortMinHeap algorithm in java
  */
 
-public class HeapSortMinHeap <T extends Comparable<T>>{
+public class HeapSortMinHeap<T extends Comparable<T>> {
     public T[] heapSort(T[] M) {
         int n = M.length - 1;
         for (int i = n / 2; i >= 0; i--) {

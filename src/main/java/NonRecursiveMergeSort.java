@@ -3,7 +3,7 @@
  * @author Alireza_Tayefeh
  * NonRecursive Merge Sort algorithm in java
  */
-public class NonRecursiveMergeSort <T extends Comparable<T>> {
+public class NonRecursiveMergeSort<T extends Comparable<T>> {
 
     public T[] MergeSort(T[] M) {
 
